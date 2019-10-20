@@ -169,7 +169,7 @@ func TestItemSet_DifferenceShouldWorkCorrect(t *testing.T) {
 	}
 }
 
-func TestItemSet_Union(t *testing.T) {
+func TestItemSet_UnionShouldWorkCorrect(t *testing.T) {
 	set1.Clear()
 	set2.Clear()
 
