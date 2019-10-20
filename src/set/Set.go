@@ -102,3 +102,13 @@ func (s *ItemSet) Difference(s2 ItemSet) *ItemSet {
 
 	return &s3
 }
+
+func (s *ItemSet) Contains(s2 Item) bool {
+	items := s.Items()
+	for _, x := range items {
+		if x == s2 {
+			return true
+		}
+	}
+	return false
+}
