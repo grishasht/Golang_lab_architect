@@ -32,5 +32,6 @@
 ---
 ***To do:***
 - [X] Create container for set data structure
-- [ ] Create tests for the container
+- [X] Create tests for the container
+- [X] Write time passing functions
 - [ ] Pass the laboratory
